@@ -88,7 +88,7 @@ components:
         dateAtOnset:
           $ref: '#/components/schemas/DateOfOnset'
         ageAtOnset:
-          $ref: 'https://raw.githubusercontent.com/ga4gh-beacon/specification-v2-default-schemas/master/common.yaml#/components/schemas/Age'
+          $ref: 'ccommon.yaml#/components/schemas/Age'
         dose:
           description: |
             Treatment dose
