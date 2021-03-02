@@ -50,7 +50,7 @@ components:
             - 'HP:0004789'
             - 'ICD10CM:E73'
         ageOfOnset:
-          $ref: 'https://raw.githubusercontent.com/ga4gh-beacon/specification-v2-default-schemas/master/common.yaml#/components/schemas/Age'
+          $ref: 'common.yaml#/components/schemas/Age'
         stage:
           description: |
             Ontology value from Ontology for General Medical Science or Disease 
