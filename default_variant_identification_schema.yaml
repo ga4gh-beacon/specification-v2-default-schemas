@@ -21,6 +21,8 @@ components:
       description: |
         Todo
       type: object
+      required: 
+        - 'variantId'
       properties:
         variantId:
           description: |

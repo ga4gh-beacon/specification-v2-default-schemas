@@ -21,6 +21,8 @@ components:
       description: |
         Todo
       type: object
+      required: 
+        - 'analysisId'
       properties:
         analysisId:
           description: Analysis reference ID (external accession or internal ID)

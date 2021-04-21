@@ -42,6 +42,8 @@ components:
     VariantAnnotation:
       description: TBD # TBD
       type: object
+      required: 
+        - 'variantId'
       properties:
         variantId:
           description: |

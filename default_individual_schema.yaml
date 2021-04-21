@@ -231,6 +231,8 @@ components:
       description: |
         #TBD
       type: object
+      required: 
+        - 'individualId'
       properties:
         individualId:
           description: |

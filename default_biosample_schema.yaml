@@ -41,6 +41,8 @@ components:
       description: |
         Todo
       type: object
+      required: 
+        - 'biosampleId'
       properties:
         biosampleId:
           description: |

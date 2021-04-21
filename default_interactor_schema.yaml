@@ -231,6 +231,8 @@ components:
       description: |
         Todo
       type: object
+      required: 
+        - 'individualId'
       properties:
         relationType:
           description: |
