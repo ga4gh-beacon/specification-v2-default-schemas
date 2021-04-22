@@ -73,9 +73,11 @@ components:
       description: |
         Todo
       type: object
-      required: 
-        - 'variantId'
-        - 'biosampleId'
+      anyOf:
+        - required:
+          - 'biosampleId'
+        - required:
+          - 'analysisId'  
       properties:
         variantId:
           description: |
