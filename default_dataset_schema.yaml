@@ -19,20 +19,20 @@ components:
   schemas:
     DatasetDetail:
       description: |
-        Description of the dataset.
+        A dataset is a collection of entities that share a common characteristic, e.g. collected for the same project, having a similar age or being the controls of an study.
       type: object
       properties:
         datasetId:
           description: |
-            Dataset reference ID (internal ID)
+            Dataset reference ID (unique internal ID)
           type: string
         datasetName:
           description: |
-            Dataset name. Reference to source.
+            Dataset name. Adding a reference to the dataset source is recommended.
           type: string
           example:  
             - 'DECIPHER'
-            - 'DisGenNET'
+            - 'DisGeNET'
         datasetype:
           description: |
             Dataset type: variant-level (aggregated) or case-level
