@@ -22,7 +22,7 @@ components:
         Genomic feature(s) affected by the variant.
       type: object
       properties:
-        class:
+        featureClass:
           allOf:
             - description: |
                 Class of feature affected by the variant. Value from ENSGLOSS 
