@@ -6,3 +6,6 @@
 This OpenAPI definition describes thoroughly the schemas to be used as default by [Beacon v2.0](https://github.com/ga4gh-beacon/specification-v2).
 
 Current version is DRAFT3.
+
+++++ THIS REPOSITORY IS LEFT HERE FOR REFERENCE, BUT IS OBSOLETE. ++++
+Refer to the [Beacon v2 Model](https://github.com/ga4gh-beacon/beacon-v2-Models/tree/main/BEACON-V2-draft4-Model) for the new repository.
